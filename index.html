@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="jquery.flipster.min.css">
+    <title>Animated Movie Website</title>
+        
+</head>
+<body>
+    <header>
+    <a href="#" class="logo">iMovies</a>
+     <ul class="nav">
+        <li><a href="#"><i class="fas fa-home"></i></a></li>
+        <li><a href="#">Adults</a></li>
+        <li><a href="#">Kids</a></li>
+        <li><a href="#">Trend</a></li>
+        <li><a href="#">My List</a></li>
+     </ul>
+     <div class="search">
+        <input type="text" placeholder="Search"> <i class="fas fa-search"></i>
+    </div>
+    </header>
+    <div class="banner">
+        <div class="content mermaid active">
+            <img src="images/mermaid title.png" class="movie-title">
+            <h4><span>2023</span><span><i>12+</i></span><span>2hr 15min</span><span>Romance</span></h4>
+            <p>In Disney's beguiling animated romp, rebellious 16-year-old mermaid Ariel is fascinated with life on land. On one of her visits to the surface, which are forbidden by her controlling father, King Triton, she falls for a human prince. Determined to be with her new love, Ariel makes a dangerous deal with the sea witch Ursula to become human for three days. But when plans go awry for the star-crossed lovers, the king must make the ultimate sacrifice for his daughter.</p>
+            <div class="button">
+                <a href="#"><i class="fas fa-play"></i>Watch</a>
+                <a href="#"><i class="fas fa-plus"></i>My List</a>
+            </div>
+        </div>
+        <div class="content the-65">
+            <img src="images/the-65-title.png" class="movie-title">
+            <h4><span>2023</span><span><i>15+</i></span><span>1hr 33min</span><span>Action</span></h4>
+            <p>After a catastrophic crash, pilot Mills quickly discovers he's actually stranded on an unknown planet. Now, with only one chance at rescue, Mills must make his way across an unknown terrain riddled with dangerous prehistoric creatures in an epic fight to survive. From the writers of A Quiet Place comes 65, a sci-fi thriller produced by Sam Raimi, Deborah Liebling, Zainab Azizi, Scott Beck and Bryan Woods.</p>
+            <div class="button">
+                <a href="#"><i class="fas fa-play"></i>Watch</a>
+                <a href="#"><i class="fas fa-plus"></i>My List</a>
+            </div>
+        </div>
+        <div class="content the-covenant">
+            <img src="images/the-covenant-title.png" class="movie-title">
+            <h4><span>2023</span><span><i>12+</i></span><span>2hr 03min</span><span>War</span></h4>
+            <p>Guy Ritchie's The Covenant follows US Army Sergeant John Kinley (Jake Gyllenhaal) and Afghan interpreter Ahmed (Dar Salim). After an ambush, Ahmed goes to Herculean lengths to save Kinley's life. When Kinley learns that Ahmed and his family were not given safe passage to America as promised, he must repay his debt by returning to the war zone to retrieve them before the Taliban hunts them down first.</p>
+            <div class="button">
+                <a href="#"><i class="fas fa-play"></i>Watch</a>
+                <a href="#"><i class="fas fa-plus"></i>My List</a>
+            </div>
+        </div>
+        <div class="content the-black-demon">
+            <img src="images/the-black-demon-title.png" class="movie-title">
+            <h4><span>2023</span><span><i>16+</i></span><span>1hr 40min</span><span>Thriller</span></h4>
+            <p>Paul Sturges takes his family on a trip to Mexico to inspect an oil rig his company owns. Once they get out there, he finds the place almost abandoned with only a few terrified workers left who tell him that the rig has been repeatedly attacked by a monstrous shark that is part of a Mexican legend. With the rig sinking into the water and the shark hunting them, he must find a way to get his family to safety and stay alive.</p>
+            <div class="button">
+                <a href="#"><i class="fas fa-play"></i>Watch</a>
+                <a href="#"><i class="fas fa-plus"></i>My List</a>
+            </div>
+        </div>
+        <div class="content the-tank">
+            <img src="images/the-tank-title.png" class="movie-title">
+            <h4><span>2023</span><span><i>15+</i></span><span>1hr 45min</span><span>Horror</span></h4>
+            <p>In Disney's beguiling animated romp, rebellious 16-year-old mermaid Ariel is fascinated with life on land. On one of her visits to the surface, which are forbidden by her controlling father, King Triton, she falls for a human prince. Determined to be with her new love, Ariel makes a dangerous deal with the sea witch Ursula to become human for three days. But when plans go awry for the star-crossed lovers, the king must make the ultimate sacrifice for his daughter.</p>
+            <div class="button">
+                <a href="#"><i class="fas fa-play"></i>Watch</a>
+                <a href="#"><i class="fas fa-plus"></i>My List</a>
+            </div>
+        </div>
+        
+        <div class="carousel-box">
+            <div class="carousel">
+                <ul>
+                    
+                    <li onclick="changebg('bg-65.jpeg','the-65');"><img src="images/65 poster.jpg" ></li>
+                    <li onclick="changebg('bg-the-covenant.jpeg','the-covenant');"><img src="images/covenant poster.jpg" ></li>
+                    <li onclick="changebg('bg-the-little-mermaid.jpg','mermaid');"><img src="images/mermaid poster.jpeg" ></li>
+                    <li onclick="changebg('bg-the-black-demon.jpeg','the-black-demon');"><img src="images/demon poster.jpg" ></li>
+                    <li onclick="changebg('bg-the-tank.jpeg','the-tank');"><img src="images/tank poster2.jpg" ></li>
+                </ul>
+            </div>
+        </div>
+
+
+            <a href="https://www.imdb.com/trailers/" class="play"><i class="fa-regular fa-circle-play"></i>Watch Trailer</a>
+            <div class="sci">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="jquery.flipster.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="main.js"></script>
+    <!--<script>
+        $(document).ready(function(){
+    $('.carousel').carousel();
+    });
+    </script>-->
+    <script>
+        $('.carousel').flipster({
+            style:'carousel',
+            spacing:-0.3,
+        });
+    </script>
+</body>
+</html>
+
